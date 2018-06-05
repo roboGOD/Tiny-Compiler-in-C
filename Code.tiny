@@ -1,0 +1,29 @@
+
+/** this is a comment line in the sample program **/
+
+
+INT func2(INT intx, INT inty) 
+BEGIN
+   INT intz;
+   intz := intx*intx - inty*inty;
+   RETURN intz; 
+END 
+INT MAIN func1()
+BEGIN
+   INT intxx := 2500;
+   INT intyy := 1000;
+   INT intx;
+   READ(intx, "A41.input");
+   INT inty;
+   READ(inty, "A42.input");
+   INT intz;
+   intz := func2(intx+intxx,inty+intyy) + func2(inty+intxx,intx+intyy);
+   WRITE (intz, "A4.output"); 
+END
+
+BEGIN
+	25Abc;
+	INT REAL;
+	?@#
+END
+
